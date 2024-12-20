@@ -1,0 +1,29 @@
+# Ignorar arquivos de dependências do Poetry
+poetry.lock
+pyproject.toml
+
+# Ignorar diretórios e arquivos do Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+
+# Ignorar diretórios de ambiente virtual
+.venv/
+env/
+venv/
+ 
+# Ignorar arquivos do sistema operacional
+.DS_Store # Para macOS
+Thumbs.db # Para Windows
+
+# Ignorar arquivos de configuração de IDEs
+.idea/
+.vscode/
+
+# Ignorar arquivos temporários
+*.swp
+*.swo
+*.bak
+*.tmp
