@@ -5,7 +5,7 @@ from django.utils import timezone
 # Create your models here.
 class Question(models.Model):
     question_text = models.CharField('Texto da Questão', max_length=200)
-    pub_date = models.DateTimeField('Data da Publicação')
+    pub_date = models.DateTimeField('Data da publicação')
     active = models.BooleanField('Ativo?', default=True)
 
     class Meta:
