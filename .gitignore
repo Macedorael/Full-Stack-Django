@@ -1,6 +1,5 @@
 # Ignorar arquivos de dependências do Poetry
-poetry.lock
-pyproject.toml
+
 
 # Ignorar diretórios e arquivos do Django
 *.log
