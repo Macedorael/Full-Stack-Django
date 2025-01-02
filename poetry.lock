@@ -276,6 +276,7 @@ prompt_toolkit = ">=3.0.41,<3.1.0"
 pygments = ">=2.4.0"
 stack_data = "*"
 traitlets = ">=5.13.0"
+typing_extensions = {version = ">=4.6", markers = "python_version < \"3.12\""}
 
 [package.extras]
 all = ["ipython[black,doc,kernel,matplotlib,nbconvert,nbformat,notebook,parallel,qtconsole]", "ipython[test,test-extra]"]
@@ -594,5 +595,5 @@ brotli = ["brotli"]
 
 [metadata]
 lock-version = "2.0"
-python-versions = "^3.12"
-content-hash = "e42cfc3ed94f14d0c78df94b41c03dcfc6b2de1b1e401f10be857b4de6bf2294"
+python-versions = "^3.11.11"
+content-hash = "4b4a2a6bba618c93ca38f509578ac3641b14b4eb572c1c0d56de1d69ec7e1afc"
